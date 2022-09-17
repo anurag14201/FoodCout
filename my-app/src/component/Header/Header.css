@@ -1,0 +1,16 @@
+.option {
+    background-color: black;
+    padding: 20px;
+}
+
+.option a {
+    padding-left: 50px;
+    color: orange;
+
+
+}
+
+.option a:hover {
+
+    color: red;
+}

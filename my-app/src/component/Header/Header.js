@@ -1,15 +1,17 @@
 import React from 'react';
+import './Header.css'
 
 const Header = () => {
     return (
-        <div>
-            <h1 className='text-xl font-bold'>
-                Hey!! Search Your Meal And feel with us
-            </h1>
 
-            <input type="search" className="p-2.5 w-2/4 text-center align-middle border-2 border-solid" placeholder="Search Your Food.." required></input>
-            <br></br>
-            <button className="m-4 p-3 border-black border-0 text-white rounded-xl bg-gradient-to-r from-violet-500 to-fuchsia-500">Search</button>
+        <div>
+            <nav className="font-bold bg-black p-8 text-orange-400 w-full">
+                <a href="/home" className="p-6 hover:bg-red-700">Home</a>
+                <a href="/food" className="p-6 hover:bg-red-700">Food</a>
+                <a href="/about" className="p-6 hover:bg-red-700">About</a>
+                <a href="/order" className="p-6 hover:bg-red-700">Order</a>
+                {/* <a href="/breakfast" className="p-6 hover:bg-red-700">Breakfast</a> */}
+            </nav>
         </div >
 
     );
